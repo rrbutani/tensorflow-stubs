@@ -55,7 +55,7 @@ def test_fail(path, py2_arg):
             continue
 
         lineno = int(error_line.split(":")[1])
-        errors[lineno] = error_line
+        errors[lineno] = errors.get(lineno, "") + error_line
 
     for i, line in enumerate(lines):
         lineno = i + 1

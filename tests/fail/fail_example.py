@@ -3,4 +3,4 @@
 These tests are all expected failures with the appropriate mypy messages."""
 
 foo = {} #type: dict
-bar = int(foo) #E: No overload variant of "int" matches argument type "Dict[Any, Any]"
+bar = int(foo) # E: No overload variant of "int" matches argument type "Dict[Any, Any]"

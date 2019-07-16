@@ -1,8 +1,8 @@
-from typing import Any, Optional, Tuple
+from typing import Any, Optional, List, Tuple
 
 
 def ctc_beam_search_decoder(inputs: Any,
-                            sequence_length: [int],
+                            sequence_length: List[int],
                             beam_width: int=...,
                             top_paths: int=...,
                             merge_repeated: bool=...
