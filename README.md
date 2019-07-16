@@ -1,6 +1,6 @@
 # tensorflow-stubs: experimental typing stubs for tensorflow
 
-[![Build Status](https://travis-ci.org/persephone-tools/tensorflow-stubs.svg?branch=master)](https://travis-ci.org/persephone-tools/tensorflow-stubs)
+[![Build Status](https://travis-ci.com/rrbutani/tensorflow-stubs.svg?branch=master)](https://travis-ci.com/rrbutani/tensorflow-stubs)
 
 This repository exists for developing [PEP 484](https://www.python.org/dev/peps/pep-0484/)
 compatible typing annotations for [tensorflow](https://github.com/tensorflow/tensorflow).

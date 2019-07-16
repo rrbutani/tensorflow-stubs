@@ -1,9 +1,10 @@
 from typing import Any, Dict, Optional
 
+from . import compat
 from . import errors
-from . import train
-from . import nn
 from . import lite
+from . import nn
+from . import train
 
 
 class dtype:
@@ -245,3 +246,5 @@ def reduce_mean(input_tensor: Any,
                 reduction_indices: Any=...,
                 keep_dims: Any=...
                 ) -> Any: ...
+
+__version__: str = ...
