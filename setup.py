@@ -19,6 +19,6 @@ setup(
     version="0.0.1",
     packages=["tensorflow-stubs"],
     # PEP 561 requires these
-    install_requires=["tensorflow"],
+    install_requires=["tensorflow", "numpy"],
     package_data=find_stubs("tensorflow-stubs"),
 )

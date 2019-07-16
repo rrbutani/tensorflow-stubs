@@ -3,6 +3,7 @@ from typing import Any, Dict, Optional
 from . import errors
 from . import train
 from . import nn
+from . import lite
 
 
 class dtype:
