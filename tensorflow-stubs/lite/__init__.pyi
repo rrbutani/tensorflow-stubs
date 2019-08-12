@@ -1,4 +1,4 @@
-from typing import Callable, Dict, Iterable, List, Optional
+from typing import Callable, Dict, Iterable, List, Optional, Union
 
 from . import experimental
 
@@ -19,7 +19,7 @@ TensorDetails = Dict[str, Any]
 class Interpreter:
   def __init__(self,
                model_path: Optional[str]=None,
-               model_content: Optional[str]=None,
+               model_content: Optional[Union[str, bytes]]=None,
                experimental_delegates: Optional[List[Delegate]]=None
                ) -> None: ...
 
